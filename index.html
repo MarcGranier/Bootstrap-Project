@@ -29,6 +29,12 @@
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
                 </div>
+                <div>
+                <div class="col-md-3 col-xl-6">
+                    <a href="#reserveForm" class="btn btn-info btn-large text-nowrap">Reserve Campsite</a>
+
+                </div>
+            </div>
             </div>
         </div>
     </header>
@@ -65,8 +71,7 @@
                         alt="Breadcrumb Trail" />
                     <div class="media-body align-self-center">
                         <h3>Our Campsites</h3>
-                        <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your
-                            own reviews!</p>
+                        <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your own reviews!</p>
                     </div>
                 </div>
             </div>
@@ -109,8 +114,8 @@
                 <div class="card">
                     <h3 class=" card-header bg-info text-white">Reserve a Campsite</h3>
                     <div class="card-body">
-                        <form>
-                            <div class="row form-group">
+                        <form id="reserveForm">
+                            <div class="row form-group">        
                                 <label class="col-sm-6">Number of Campers</label>
                                 <div class="col-sm-6">
                                     <select name="numCampers" id="numCampers" class="form-control">
@@ -123,15 +128,14 @@
                                         <option value="6">6</option>
                                     </select>
                                 </div>
-                            </div>
+                            </div>   
                             <div class="row form-group">
                                 <label for="date" class="col-sm-6 ">Date</label>
                                 <div class="col">
                                     <input type="date" name="date" id="date" placeholder="Date" class="form-control">
-                                </div>
-                            </div>
+                                </div>                            
                             <div class="row form-group">
-                                <div class="col">
+                                <div class="col"></div>
                                     <button type="search" class="btn btn-primary ">Search</button>
                                 </div>
                             </div>

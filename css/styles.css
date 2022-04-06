@@ -35,4 +35,9 @@ site-footer {
 .navbar {
     background-color: #901CAD;
 }
+.tab-content {
+    border: 1px solid #000;
+    border-top: none;
+    padding: 10px;
+}
 

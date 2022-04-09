@@ -2,13 +2,13 @@
   "name": "nucampsite",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "lite": "lite-server --port 3008",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Marc E. Granier",
+  "author": "Marc Granier",
   "license": "ISC",
   "devDependencies": {
     "htmlhint": "^1.1.3",
